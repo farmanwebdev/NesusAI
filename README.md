@@ -66,17 +66,7 @@ cd ../frontend
 npm install
 ```
 
-### 2. Configure environment
 
-**Backend** — create `backend/.env` from `backend/.env.example`:
-```env
-PORT=5000
-NODE_ENV=development
-MONGODB_URI=mongodb://localhost:27017/nexusai
-JWT_SECRET=your-super-secret-key-here
-OPENAI_API_KEY=sk-your-openai-api-key
-FRONTEND_URL=http://localhost:3000
-```
 
 **Frontend** — create `frontend/.env.local` from `frontend/.env.local.example`:
 ```env
