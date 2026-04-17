@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Env files (CRITICAL)
+.env
+.env.local
+.env.development
+.env.production
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
