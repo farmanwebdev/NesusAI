@@ -52,28 +52,9 @@ nexusai/
     └── package.json
 ```
 
-## Quick Start
-
-### 1. Clone and install
-
-```bash
-# Install backend dependencies
-cd nexusai/backend
-npm install
-
-# Install frontend dependencies
-cd ../frontend
-npm install
-```
 
 
-
-**Frontend** — create `frontend/.env.local` from `frontend/.env.local.example`:
-```env
-NEXT_PUBLIC_API_URL=http://localhost:5000
-```
-
-### 3. Start MongoDB
+## 3. Start MongoDB
 
 ```bash
 # macOS (Homebrew)
