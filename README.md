@@ -67,21 +67,7 @@ docker run -d -p 27017:27017 --name mongodb mongo:7
 sudo systemctl start mongod
 ```
 
-### 4. Run in development
 
-Open two terminals:
-
-```bash
-# Terminal 1 — Backend
-cd nexusai/backend
-npm run dev
-# API starts at http://localhost:5000
-
-# Terminal 2 — Frontend
-cd nexusai/frontend
-npm run dev
-# App starts at http://localhost:3000
-```
 
 Visit **http://localhost:3000** 🎉
 
